@@ -14,8 +14,8 @@ metadata:
 spec:
   fluentd:
     image:
-      repository: TODO
-      tag: TODO
+      repository: ghcr.io/overlordtm/kube-logging-fluentd
+      tag: v1.16-4.8-full-es7
       pullPolicy: IfNotPresent
     ...
   fluentbit: {}
